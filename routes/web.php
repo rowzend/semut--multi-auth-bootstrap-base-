@@ -17,4 +17,4 @@ Route::middleware([
     })->name('dashboard');
 });
 
-Route::get('/backend/home', [HomeController::class, 'index']);
+Route::get('/backend/home', [HomeController::class, 'index'])->name('home');
